@@ -1,7 +1,7 @@
 ﻿namespace SocialNetwork.Core.Application
 {
-    public class Class1
+    public class ServiceRegistration
     {
-
+        // TODO BIEN
     }
 }

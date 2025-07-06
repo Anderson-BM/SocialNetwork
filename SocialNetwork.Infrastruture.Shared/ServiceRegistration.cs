@@ -1,6 +1,6 @@
 ﻿namespace SocialNetwork.Infrastruture.Shared
 {
-    public class Class1
+    public class ServiceRegistration
     {
 
     }

@@ -1,6 +1,6 @@
 ﻿namespace SocialNetwork.Infrastruture.Persistence
 {
-    public class Class1
+    public class ServiceRegistration
     {
 
     }
