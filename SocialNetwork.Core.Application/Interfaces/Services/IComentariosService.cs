@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialNetwork.Core.Domain.Entities
+namespace SocialNetwork.Core.Application.Interfaces.Services
 {
-    internal class BaseEntity
+    public interface IComentariosService
     {
     }
 }

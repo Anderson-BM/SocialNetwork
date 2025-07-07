@@ -16,4 +16,12 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SocialNetwork.Core.Application\SocialNetwork.Core.Application.csproj" />
+    <ProjectReference Include="..\SocialNetwork.Core.Domain\SocialNetwork.Core.Domain.csproj" />
+    <ProjectReference Include="..\SocialNetwork.Infrastruture.Identity\SocialNetwork.Infrastruture.Identity.csproj" />
+    <ProjectReference Include="..\SocialNetwork.Infrastruture.Persistence\SocialNetwork.Infrastruture.Persistence.csproj" />
+    <ProjectReference Include="..\SocialNetwork.Infrastruture.Shared\SocialNetwork.Infrastruture.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

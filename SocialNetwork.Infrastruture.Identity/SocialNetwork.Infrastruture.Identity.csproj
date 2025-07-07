@@ -18,4 +18,9 @@
     <PackageReference Include="System.Diagnostics.Tools" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SocialNetwork.Core.Application\SocialNetwork.Core.Application.csproj" />
+    <ProjectReference Include="..\SocialNetwork.Infrastruture.Shared\SocialNetwork.Infrastruture.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

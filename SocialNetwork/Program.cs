@@ -1,9 +1,24 @@
+using Microsoft.EntityFrameworkCore;
+
+using SocialNetwork.Core.Application;
+using SocialNetwork.Infrastruture.Persistence;
+using SocialNetwork.Infrastruture.Persistence.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Registra todos los servicios aquí:
 builder.Services.AddControllersWithViews();
+builder.Services.AddSession();
+builder.Services.AddPersistenceInfrastructure(builder.Configuration);
+builder.Services.AddApplicationLayer();
 
+// Añade también el HttpContextAccessor
+builder.Services.AddHttpContextAccessor();
+
+// Después que ya registraste todo:
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
